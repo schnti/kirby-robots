@@ -1,6 +1,8 @@
 {
   "name": "schnti/robots",
   "description": "simple kirby robots.txt plugin",
+  "homepage": "https://github.com/schnti/kirby3-robots",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Timo Schneider",
