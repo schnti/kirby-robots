@@ -1,19 +1,18 @@
 # (simple) robots.txt Plugin
 
-A plugin for [Kirby 3 CMS](http://getkirby.com) that generates an `robots.txt`.
+A plugin for [Kirby CMS](http://getkirby.com) that generates an `robots.txt`.
 
 ## Commercial Usage
 
 This plugin is free but if you use it in a commercial project please consider
 
-- [making a donation](https://www.paypal.me/schnti/5) or
-- [buying a Kirby license using this affiliate link](https://a.paddle.com/v2/click/1129/48194?link=1170)
+- [making a donation](https://www.paypal.me/schnti/5)
 
 ## Installation
 
 ### Download
 
-[Download the files](https://github.com/schnti/kirby3-robots/archive/master.zip) and place them inside `site/plugins/robots`.
+[Download the files](https://github.com/schnti/kirby-robots/archive/master.zip) and place them inside `site/plugins/robots`.
 
 ### Composer
 
@@ -25,7 +24,7 @@ composer require schnti/robots
 You can add the plugin as a Git submodule.
 
     $ cd your/project/root
-    $ git submodule add https://github.com/schnti/kirby3-robots.git site/plugins/robots
+    $ git submodule add https://github.com/schnti/kirby-robots.git site/plugins/robots
     $ git submodule update --init --recursive
     $ git commit -am "Add Kirby robots.txt plugin"
 
@@ -41,4 +40,4 @@ Run these commands to update the plugin:
 
 Nothing required.
 
-The [schnti/kirby3-sitemap](https://github.com/schnti/kirby3-sitemap) plugin is recommended.
+The [schnti/kirby-sitemap](https://github.com/schnti/kirby-sitemap) plugin is recommended.
